@@ -1,0 +1,198 @@
+body{
+    margin: 0px;
+    font-family: "Jost", serif;
+}
+
+header{
+    height: 112.80vh;
+    
+    background-color: #141024;
+}
+
+.content{
+    padding-left: 310px;
+}
+
+
+.container{
+    margin: 0  100px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    color: white;
+}
+
+
+
+.logo{
+    font-family: "Jost", serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.clients{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Jost", serif;
+}
+
+.item{
+    padding-right: 40px;
+}
+
+.item-text{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+.item-text:hover{
+    color: rgba(105, 167, 222, 0.488);
+}
+
+.numbers{
+    font-size: 30px;
+    font-family: "Jost", serif;
+    font-weight: 600;
+}
+
+
+.img{
+    padding-top: 20.52px;
+    position: relative;
+}
+
+.foto{
+    position: absolute;
+
+    left: 971px;
+}
+
+#gii{
+    left: 1110px;
+    padding-top: 105.52px;
+}
+
+#kryg{
+    padding-top: 192.63px ;
+    
+}
+
+.textina{
+    padding-left: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90.80vh;
+
+}
+
+.titles{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: "Jost", serif;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.texst{
+    font-size: 20px;
+    font-family: "Jost", serif;
+    color: white;
+    padding-bottom: 50px;
+    line-height: 32px;
+}
+
+.btn{
+    padding-top: 50px;
+}
+
+.butto{
+    color: white;
+    background-color: #D52027;
+    padding: 25px 54px 25px 54px;
+    font-size: 18px;
+    font-family: "Jost", serif;
+    text-decoration: none;
+    border-radius: 5px 5px 5px 5px;
+    transition: all  0.1s linear;
+}
+
+.butto:hover{
+    background-color: #721619;
+}
+
+.text{
+    padding-top: 120px;
+    font-size: 30px;
+    font-family: "Jost", serif;
+
+}
+
+span{
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Jost", serif;
+
+}
+
+
+.itemes{
+    display: flex;
+    padding-top: 60px;
+    font-family: "Jost", serif;
+    font-weight: 600;
+    font-size: 70px;
+    color: #D52027;
+}
+
+.block{
+    display: block;
+    color: rgba(20, 16, 36, 0.7);
+    font-family: "Jost", serif;
+    font-size: 18px;
+    text-wrap: nowrap;
+    padding-right:40px;
+}
+
+.advice-solition{
+    padding-top: 220px;
+    padding-bottom: 60px;
+}
+
+.kurs{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.flex{
+    padding-top: 60px;
+    display: flex;
+}
+
+.advice{
+    font-weight: 600;
+    font-size: 24px;
+    line-height:38.4px ;
+}
+
+.solution{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 400;
+    text-wrap: nowrap;
+    color: rgba(20, 16, 36, 0.7);
+    padding-right:40px ;
+}
+
+.img-icon{
+    cursor: pointer;
+}
+
+
