@@ -195,4 +195,89 @@ span{
     cursor: pointer;
 }
 
+.classroom{
+    padding-bottom: 60px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+
+}
+
+.cart-block{
+    display: flex;
+}
+
+.cart{
+    padding-right: 40px;
+}
+
+.name-class{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.4px;
+    color: rgba(20, 16, 36, 1);
+    padding-top: 20px;
+}
+
+.work{
+    font-size: 18px;
+    line-height: 28.8px;
+    color: rgba(20, 16, 36, 0.7);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.link{
+    color: rgba(213, 32, 39, 1);
+    font-size: 18px;
+    line-height: 28.8px;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.link:hover{
+    color: rgb(92, 13, 16);
+}
+
+.cart-name{
+    padding-bottom: 60px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+
+}
+
+
+
+.sect{
+    padding-top: 220px;
+}
+
+.cart-program{
+    display: flex;
+}
+
+.cart-sell{
+    text-align: center;
+    padding-right: 20px;
+    width: 360px;
+    height: 460px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid rgba(20, 16, 36, 0.2);
+    gap: 20;
+    
+}
+
+.cart-sell-name{
+    padding-bottom: 60px;
+}
+
+.sell-carts{
+    padding-bottom: 20px;
+}
+
+
+.description-cart{
+    padding-bottom: 61px;
+}
 
