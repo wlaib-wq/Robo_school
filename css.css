@@ -244,7 +244,7 @@ span{
     font-size: 50px;
     font-weight: 600;
     line-height: 80px;
-
+    
 }
 
 
@@ -254,30 +254,94 @@ span{
 }
 
 .cart-program{
-    display: flex;
+    display: flex; 
+    padding-bottom: 120px;
 }
 
 .cart-sell{
     text-align: center;
     padding-right: 20px;
-    width: 360px;
-    height: 460px;
     border-radius: 20px 20px 20px 20px;
     border: 1px solid rgba(20, 16, 36, 0.2);
-    gap: 20;
-    
+    margin-right: 20px;
 }
 
 .cart-sell-name{
     padding-bottom: 60px;
+    padding-top: 40px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+
+}
+
+.cari{
+    background-color: rgba(20, 16, 36, 1);
 }
 
 .sell-carts{
     padding-bottom: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+
 }
 
 
 .description-cart{
     padding-bottom: 61px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+
+}
+
+.cart-btn{
+    padding-top: 41px;
+}
+
+.button-cart{
+    background-color:rgba(213, 32, 39, 1);
+    padding:25px 78px ;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px 5px 5px 5px;
+    transition: all 0.2s linear;
+}
+
+.button-cart:hover{
+    background-color:rgb(110, 21, 24);
+}
+
+.cart-sell-name-onlick{
+    color: rgba(20, 16, 36, 1);
+    
+}
+
+.carts-sell{
+    color: rgba(20, 16, 36, 1);
+}
+
+.cart-description{
+    color: rgba(20, 16, 36, 1);
+    
+}
+
+.cart-butt{
+    padding-top: 40px;
+}
+
+.backraund-sell{
+    background-color: rgba(213, 32, 39, 1);
+    height: 30vh;
+}
+
+.procent{
+    width: 1419.33px;
+    height: 120.55px;
+
 }
 
