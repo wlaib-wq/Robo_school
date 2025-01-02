@@ -334,14 +334,61 @@ span{
     padding-top: 40px;
 }
 
+.img-procent{
+    background-repeat: space;
+    width: 6000px;
+}
+
+.backraund-img{
+    height: 15vh;
+    display: flex;
+    align-items: flex-end;
+}
+
 .backraund-sell{
     background-color: rgba(213, 32, 39, 1);
-    height: 30vh;
-}
-
-.procent{
-    width: 1419.33px;
-    height: 120.55px;
+    height: 50vh;
 
 }
+
+.bid{
+    display: flex;
+    margin-left: 440px;
+}
+
+
+.statement-buttons{
+    display: flex;
+    flex-direction: column;
+    padding-top: 84px;
+}
+
+.statement-buttons input{
+    margin-top: 10px;
+    width: 500px;
+    height: 64px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 20px;
+
+}
+
+.application-text{
+    padding-right: 64px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46.8px;
+    padding-top: 106px;
+
+}
+
+.discounts{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+}
+
+
+
+
 
