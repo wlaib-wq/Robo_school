@@ -5,6 +5,7 @@ body{
 
 header{
     height: 112.80vh;
+    background-repeat: no-repeat;
     
     background-color: #141024;
 }
@@ -335,14 +336,15 @@ span{
 }
 
 .img-procent{
-    background-repeat: space;
-    width: 6000px;
+    width: 2000px;
 }
 
 .backraund-img{
-    height: 15vh;
+    height: 13vh;
     display: flex;
     align-items: flex-end;
+    position: absolute;
+    z-index: 1;
 }
 
 .backraund-sell{
@@ -386,9 +388,63 @@ span{
     font-weight: 400;
     line-height: 26px;
     padding-top: 20px;
+
+}
+
+.button-input{
+    padding: 19px 182px;
+    background-color: #141024;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    transition: all 0.2s linear;
+    z-index: 2;
+}
+
+.button-input:hover{
+    background-color: #000000;
+}
+
+.input-btn{
+    color: white;
+    text-decoration: none;
+    
 }
 
 
+.block-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.border{
+    background-color: #141024;
+    position: relative;
+    z-index: 2;
+}
+
+.flex-text{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    color: white;
+}
+
+.flex-title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.number-flex{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    color: white;
+}
 
 
 
